@@ -1,5 +1,6 @@
 html, body {
     min-height: 100%;
+    background: #fff;
 }
 body, div, form, input, select, p { 
    padding: 0;
@@ -30,14 +31,13 @@ h2 {
    align-items: center;
    height: 100%;
    padding: 25px;
-   
-   background: rgba(252,115,0,0.2);
+   background: #fff;
 }
 .left-part, form {
    padding: 25px;
 }
 .left-part {
-   text-align: center;
+   text-align: center;   
 }
 .fa-graduation-cap {
    font-size: 72px;
@@ -45,6 +45,7 @@ h2 {
 }
 form {
    background:rgba(0,66,90,0.9); 
+   
 }
 .title {
    display: flex;
@@ -72,22 +73,8 @@ option {
    background: black; 
    border: none;
 }
-.checkbox{
-   padding-top: 1rem;
-}
-.checkbox input {
-   margin: 0 10px 0 0;
-   vertical-align: middle;
-   
-}
 textarea{
    font-family: 'Poppins', sans-serif;
-}
-.checkbox a {
-   color: #fc7300;
-}
-.checkbox a:hover {
-   color: #181823;
 }
 .btn-item, button {
    padding: 10px 5px;
@@ -109,6 +96,10 @@ button {
 }
 button:hover, .btn-item:hover {
    background: #fc7300;
+}
+a{
+   text-decoration: none;
+   color: #fff;
 }
 @media (min-width: 768px) {
    html, body {
